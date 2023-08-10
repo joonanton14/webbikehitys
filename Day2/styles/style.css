@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+html{
+font-family: 'Dokdo', cursive;
+}
+body{
+
+background-color: rgb(16, 19, 230);
+
+}
+
+a,
+h1{
+
+    background-color: rgb(252, 248, 251);
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px 0px 10px 50px;
+    margin-right: 10;
+    border: 10px rgb(224, 9, 128);
+    text-shadow: 3px 3px 1px rgb(233, 10, 10);
+}
+
+#black-link{
+
+    color: rgb(202, 223, 16);
+}
+
+a:hover{
+    
+font-size: 50px;
+
+}
+
+img:hover{
+    width: 200px;;
+    height: 150px;
+}
+
+

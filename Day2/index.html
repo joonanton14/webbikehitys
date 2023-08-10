@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- perus runko ohjelmalle, doc sarkain 2 kertaa--> <!--html kommentti-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style> /* kommentti css, voi olla monta riviä. täällä määritellään tyylejä tämän tiedoston elementeille*/
+    img {
+    /* määrittää tyylit kaikille img-elementeille*/
+        width: 1000px; 
+        height: 750px;
+        display: block;
+        margin: 0 auto;
+    } /* img päättyy*/
+
+    .small-images{
+    width: 100px;
+    height: 75px;
+
+    } /*small-images päättyy*/
+
+    a{
+        color:  rgb(2, 8, 2) ;
+        display: block;
+        margin: 0 auto;
+
+    }
+    </style>
+    
+</head>
+
+<!-- 3 tapaa tehdä kuvista samankokoisia-->
+<!-- 1. Määritellään kuvan koko omg-elementin atribuuttina-->
+<!-- 2. Määritellän tyyleissä kaikkien img-elementtien koot-->
+<!-- 3. Määrittää elementille luokka tai id, ja antaa tyylit luokka tai id kohtaisesti-->
+
+<body>
+    <h1>Eläimet</h1>
+    <ul> <!--lista elementti --> <!--img ja sarkain täyttää-->
+        <li><img class=small-images src="images/Koira.jpg" alt="Kuva koirasta" /> <a href="https://fi.wikipedia.org/wiki/Koira">Koira</a></li>
+        <li><img class=small-images src="images/kissa.png" alt="Kuva kissasta" /> <a id="black-link" href="https://fi.wikipedia.org/wiki/Kissa">Kissa</a></li>
+        <li><img class=small-images src="images/apina.png" alt="Kuva apinasta" /> <a href="https://fi.wikipedia.org/wiki/Apinat">Apina</a></li>
+    </ul>
+
+</body>
+</html>
