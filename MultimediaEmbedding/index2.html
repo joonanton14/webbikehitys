@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 2</title>
+    <style>
+      body {
+        background-color: #ec0909;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      video {
+        border: 1px solid black;
+        height: 320px;
+        width: 240px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Video embed</h1>
+
+    <video 
+    controls
+    autoplay
+    muted
+    loop
+    preload="none">
+
+       <source src="media/microphone.mp3" type="audio/mp3"/>
+       <track kind="subtitles" src="media/subtitles_en.vtt" srclang="subtitles_en" label="English" />
+    
+        <p>
+            Your browser doesn't support this audio file. Here is a
+            <a href="media/viper.mp3">link to the audio</a> instead.
+          </p>
+    </video>
+    
+    <video 
+    controls
+    autoplay
+    muted
+    loop
+    preload="metadata">
+       
+        <source src="media/guitar.mp4" type="audio/mp4"/>
+         <track kind="subtitles" src="media/subtitles_en.vtt" srclang="subtitles_en" label="English" />
+        <p>
+            Your browser doesn't support this audio file. Here is a
+            <a href="media/viper.mp3">link to the audio</a> instead.
+          </p>
+    </video>
+    
+    <video 
+    controls
+    autoplay
+    muted
+    loop
+    preload="auto">
+
+    
+        <source src="media/concert.webm" type="audio/webm"/>
+        <track kind="subtitles" src="media/subtitles_en.vtt" srclang="subtitles_en" label="English" />
+        <p>
+            Your browser doesn't support this audio file. Here is a
+            <a href="media/viper.mp3">link to the audio</a> instead.
+          </p>
+    </video>
+
+  </body>
+
+</html>
