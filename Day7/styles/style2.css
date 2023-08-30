@@ -1,0 +1,60 @@
+h1{
+    color: red;
+    transform: rotate(0.75turn);
+    
+}
+
+p{
+    color: green;
+}
+
+li{    
+    
+    color: rgba(230, 108, 9, 0.575);
+}
+
+html{
+    background-color: rgb(241, 224, 212);
+}
+
+li.special,
+span.special {
+  color: rgb(39, 230, 13);
+  font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+  }
+
+h1 + p {
+    font-size: 200%;
+  }
+
+  a:link {
+    color: pink;
+  }
+  
+  a:visited {
+    color: rgb(221, 34, 137);
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  .outer {
+    border: 5px solid black;
+  }
+  
+  .box {
+    padding: 10px;
+    width: calc(55% - 300px);
+    background-color: rebeccapurple;
+    color: white;
+  }
+  
+
+  
+  
+  
+  

@@ -99,13 +99,13 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-     <img src="media/firefox_logo-only_RGB0120.png">
+     <img src="media/firefox_logo-only_RGB0120.png" alt="Firefox logo">
 
     </header>
 
     <main>
       <article>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/ojcNcvb1olg" 
+        <iframe width="400" height="720" src="https://www.youtube.com/embed/ojcNcvb1olg" 
         title="Choose Independent - Choose Firefox" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
         picture-in-picture; web-share" allowfullscreen></iframe>
@@ -120,22 +120,39 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img srcset="media/firefox_logo-only_RGB400.png"  >
+          <img srcset="media/firefox_logo-only_RGB0120.png 120w, media/firefox_logo-only_RGB400.png 800w" 
+          sizes="(max-width: 500px) 120px, 400px" 
+          src="media/firefox_logo-only_RGB400.png" 
+          alt="Firefox logo" />
         </a>
+
         <a href="https://www.mozilla.org/">
-          <img src="media/mozilla-dinosaur-head0400.png">
+          <img srcset="media/mozilla-dinosaur-head0400.png 120w, media/mozilla-dinosaur-head0120.png 800w" 
+          sizes="(max-width: 500px) 120px, 400px"
+          src="media/mozilla-dinosaur-head0400.png" 
+          alt="Dinosaurus">
         </a>
+
         <a href="https://addons.mozilla.org/">
-          <img src="media/firefox-addons0400.jpg">
+          <img srcset="media/firefox-addons0120.jpg 120w, media/firefox-addons0400 800w" 
+          sizes="(max-width: 500px) 120px, 400px"
+          src="media/firefox-addons0400.jpg" 
+          alt="Mozilla">
         </a>
+
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="media/">
+          <img src="media/mdn.svg">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <img src="media/red-pandawide.jpg">
+        <picture>
+          <source media="(max-width: 599px)" srcset="media/red-panda600.jpg">
+            <source media="(min-width: 600px)" srcset="media/red-pandawide.jpg">
+          <img src="media/red-panda600.jpg" alt="panda">
+        </picture>
+       
       </div>
 
     </main>
