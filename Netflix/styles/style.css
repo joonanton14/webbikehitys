@@ -1,0 +1,195 @@
+html{
+    background-color: black;
+}
+
+.div-image{
+
+    background-image: url('https://media.istockphoto.com/id/1321115829/fi/valokuva/video-on-demand-tv-suoratoisto-multimedia.jpg?s=612x612&w=0&k=20&c=0mLf4SjKmafX738pllSyDpLOfAi77u__ghWyDbsZW5s=');
+    height: 500px;
+    width:auto;
+ 
+}
+.btn-red{
+    border: none;
+    background-color: red;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+.btn-white{
+
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+header{
+    height: 20px;
+    padding: 5px;
+    display: flex;
+    font-size: 65px;
+    align-items: center;
+    max-width: auto;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+
+p{
+    color: red;
+}
+
+h1{
+    color: white;
+    padding: 2px;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: white;
+    padding: 1px;
+    font-size: 30px;
+}
+
+.pclass{
+    color: white;
+    padding: 4px;
+}
+.headercontainer{
+
+    display: flex;
+    width: 1600px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.maincontent{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: block;
+    align-items: center;
+    text-align: center;
+   
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.divwrapper{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divcontainer{
+    justify-content: center;
+
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.centerCenter{
+    align-items: center;
+    justify-content: center;
+}
+
+.gap{
+
+    max-width: auto;
+    height: 10px;
+    background-color:grey;
+    margin-top:0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+footer p{
+    padding-left: 70px;
+    color:white;
+}
+.greybackgound{
+    width: 1100px;
+    height: 45px;
+    background-color:rgb(65, 62, 62)
+}
+.footer-underline{
+text-decoration: underline;
+}
+li, ul{
+list-style: none;
+text-decoration: underline;
+color: white;
+padding: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+.footer-item{
+    flex: 1;
+    padding: 10px;
+
+}
+
+input{
+    border: none;
+    background-color: grey;
+    padding: 14px 28px 14px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    color:white;
+    width: 400px;
+}
+
+footer button{
+    
+    width: 100px;
+    height: 40px;
+    background-color: rgb(105, 103, 103);
+    margin-left: 70px;
+    color:white;
+    border: 5px green;;
+}
+
+::placeholder {
+    color: white;
+    
+  }

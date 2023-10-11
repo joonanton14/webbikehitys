@@ -4,11 +4,19 @@ body, h1, h2, p, ul, li {
     padding: 0;
 }
 
+
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    background-image: url('tiimalasi.jpg');
 }
+
+html{
+    background-color: blueviolet;
+}
+
+
 
 .sidebar {
     background-color: #333;
@@ -25,6 +33,7 @@ body {
 /* Navigation styling */
 .sidebar h2 {
     margin-bottom: 10px;
+    color: blanchedalmond;
 }
 
 ul {
@@ -33,7 +42,7 @@ ul {
 
 li {
     margin-bottom: 5px;
-    color: rgb(2, 29, 53);
+    color: rgb(2, 2, 2);
 }
 
 a {
@@ -43,8 +52,19 @@ a {
 
 
 
-img {
-    height: 300px;
-    width: 400px;
+.gallery-img {
+    display: flex;
+    height: 50;
+    width: 60%;
    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+   
+}
+
+article{
+    -webkit-text-fill-color: blueviolet;
 }
